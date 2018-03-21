@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: darkslateblue;
+	text-align: center;
+	color: white;
+}
+
+.site-header {
+	background-color: darkblue;
+	text-align: left;
+	margin-bottom: 24px;
+}
+
+.home-link {
+	font-size: 24px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+}
+
+.page-link {
+	font-size: 20px;
+	text-decoration: none;
+	color:white;
+}
+ 
+.home-link:hover, .page-link:hover {
+	color: gray;
+}
+
+.bio {
+	font-size: 24px;
+}
+
+.name {
+	font-size: 64px;	
+}
+
+.links {
+	font-size: 12px;	
+}
+
+.button {
+	height: 75px;
+	width: 200px;
+}
+
+.site-footer {
+	background-color: darkblue;
+	text-align: left;
+	margin-top: 24px;
+}
